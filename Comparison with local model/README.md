@@ -205,7 +205,6 @@ Lo scopo dell'indice è quello di recuperare i file inerenti alla domanda che è
 I metodi relativi alla fase di retrieval si trovano all'interno della cartella `evaluators`.
 Eseguendo il file `product.py` viene creato un file JSON contenente i chunk dei documenti su cui il modello si baserà per fornire la risposta.
 
-![Products screen](docs/productsScreen.png)
 
 E' possibile modificare il numero di prodotti da prelevare dall'indice cambiando il parametro quando si richiama la funzione `find_products`
 ``` shell
