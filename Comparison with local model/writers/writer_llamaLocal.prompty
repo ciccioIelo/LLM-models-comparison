@@ -16,7 +16,7 @@ model:
 sample:
   productContext: Can you use a selection of files as context?
   products: ${file:../json_files/find_products_output.json}
-  assignment: How can I solve error 4115
+  assignment: How can I solve error 1000
 ---
 system:
 You are an intelligent assistant that supports the company employees in providing an helpdesk service helping
