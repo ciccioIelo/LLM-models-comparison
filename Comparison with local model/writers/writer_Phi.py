@@ -48,7 +48,7 @@ if __name__ == "__main__":
     products = json.loads(Path(base.parent / "json_files/find_products_output.json").read_text()) # File da cui prendere informazioni
     
     # Domanda specifica per l'LLM
-    assignment = "Qual è la sigla del PLC safety della beckhoff?" # Domanda
+    assignment = "" # Domanda
 
     # Esecuzione della funzione write
     result = write(productContext, products, assignment)
